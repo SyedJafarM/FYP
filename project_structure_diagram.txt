@@ -1,0 +1,96 @@
+e:/8th SEMESTER/forever/
+├── How to Run Project.pdf
+├── package-lock.json
+├── package.json
+├── project_structure_diagram.txt
+├── updated_project_structure_diagram.txt
+├── backend/
+│   ├── .env
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── server.js
+│   ├── config/
+│   │   └── db.js
+│   ├── models/
+│   │   ├── Order.js
+│   │   └── Product.js
+│   └── routes/
+│       ├── authRoutes.js
+│       ├── categoryRoutes.js
+│       ├── orderRoutes.js
+│       ├── productRoutes.js
+│       └── userRoutes.js
+└── uploads/
+    ├── 1742311215067.jpg
+    ├── 1742313145979.jpg
+    ├── 1742313267007.jpg
+    ├── 1742313346529.jpg
+    ├── 1742314492157.jpg
+    ├── 1742317199184.jpg
+    ├── 1742360293928.jpg
+    ├── 1742362328728.jpg
+    ├── 1742362416499.jpg
+    ├── 1742362636089.jpg
+    └── 1742376970441.jpg
+└── frontend/
+    ├── .eslintrc.cjs
+    ├── .gitignore
+    ├── bun.lockb
+    ├── index.html
+    ├── package-lock.json
+    ├── package.json
+    ├── postcss.config.js
+    ├── README.md
+    ├── tailwind.config.js
+    ├── vercel.json
+    ├── vite.config.js
+    └── public/
+        ├── favicon.png
+        └── assets/
+            ├── beds.jpg
+            ├── chairs.jpg
+            ├── mattresses.jpg
+            └── sofas.jpg
+    └── src/
+        ├── App.jsx
+        ├── index.css
+        ├── main.jsx
+        └── admin-panel/
+            ├── index.css
+            └── src/
+                ├── App.jsx
+                ├── main.jsx
+                └── components/
+                    ├── common/
+                    │   ├── Navbar.jsx
+                    │   └── Sidebar.jsx
+                    └── pages/
+                        ├── AddProductPage.jsx
+                        ├── DashboardPage.jsx
+                        ├── EditProductPage.jsx
+                        ├── ManageCategoriesPage.jsx
+                        ├── ManageProductsPage.jsx
+                        ├── OrdersPage.jsx
+                        ├── OrderTrackingPage.jsx
+                        ├── OverviewPage.jsx
+                        └── ProductsPage.jsx
+        └── routes/
+            └── productRoutes.js
+        └── components/
+            ├── CategoryCard.jsx
+            ├── Footer.jsx
+            ├── Navbar.jsx
+            └── ProductCard.jsx
+        └── contexts/
+            └── CartContext.jsx
+        └── pages/
+            ├── About.jsx
+            ├── Cart.jsx
+            ├── Categories.jsx
+            ├── Collection.jsx
+            ├── Contact.jsx
+            ├── Home.jsx
+            ├── Login.jsx
+            ├── Orders.jsx
+            ├── PlaceOrder.jsx
+            └── ProductDetail.jsx

@@ -1,0 +1,75 @@
+e:/8th SEMESTER/forever/
+├── backend/
+│   ├── .env
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── server.js
+│   ├── config/
+│   │   └── db.js
+│   ├── models/
+│   │   ├── Order.js
+│   │   └── Product.js
+│   └── routes/
+│       ├── authRoutes.js
+│       ├── categoryRoutes.js
+│       ├── orderRoutes.js
+│       ├── productRoutes.js
+│       └── userRoutes.js
+│
+├── frontend/
+│   ├── .eslintrc.cjs
+│   ├── .gitignore
+│   ├── bun.lockb
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── README.md
+│   ├── tailwind.config.js
+│   ├── vercel.json
+│   ├── vite.config.js
+│   ├── public/
+│   │   └── favicon.png
+│   └── src/
+│       ├── App.jsx
+│       ├── index.css
+│       ├── main.jsx
+│       ├── admin-panel/
+│       │   ├── index.css
+│       │   └── src/
+│       │       ├── App.jsx
+│       │       ├── main.jsx
+│       │       ├── components/
+│       │       │   ├── common/
+│       │       │   │   ├── Navbar.jsx
+│       │       │   │   └── Sidebar.jsx
+│       │       │   └── ...
+│       │       └── pages/
+│       │           ├── AddProductPage.jsx
+│       │           ├── DashboardPage.jsx
+│       │           ├── EditProductPage.jsx
+│       │           ├── ManageCategoriesPage.jsx
+│       │           ├── ManageProductsPage.jsx
+│       │           ├── OrdersPage.jsx
+│       │           ├── OrderTrackingPage.jsx
+│       │           ├── OverviewPage.jsx
+│       │           └── ProductsPage.jsx
+│       ├── assets/
+│       │   ├── about_img.png
+│       │   ├── bin_icon.png
+│       │   ├── cart_icon.png
+│       │   └── ... (other asset files)
+│       └── components/
+│           ├── BestSeller.jsx
+│           ├── CartTotal.jsx
+│           ├── Footer.jsx
+│           ├── Hero.jsx
+│           ├── ImageUpload.js
+│           ├── LatestCollection.jsx
+│           ├── Navbar.jsx
+│           ├── NewsletterBox.jsx
+│           ├── OurPolicy.jsx
+│           ├── ProductItem.jsx
+│           ├── ProductList.jsx
+│           ├── RelatedProducts.jsx
+│           └── SearchBar.jsx
